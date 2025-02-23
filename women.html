@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="MenStyles.css">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-top">
+            <div class="logo-container">
+                <img src="Images\10.png" alt="Opal Muse" class="logo">
+            </div>
+            <h1 class="Ologo">OPAL MUSE</h1>
+            <div class="header-search">
+                <input type="text" placeholder="Search for items...">
+                <button><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+            
+            <div class="header-buttons">
+                <button onclick="window.location.href='cart.html'"><i class="fa-solid fa-cart-shopping"></i>Cart</button>
+                <button onclick="window.location.href='login.html'"><i class="fa-solid fa-user"></i>Login</button>
+                <button onclick="window.location.href='register.html'"><i class="fa-solid fa-user-plus"></i>Register</button>
+            </div>
+        </div>
+
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="new_arrivals.html">New Arrivals</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="kids.html">Kids</a></li>
+                <li><a href="gift_cards.html">Gift Cards</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Categories for Men's Collection -->
+    <section class="category-section">
+        <h2>Women's Collection</h2>
+        <div class="category-grid">
+            <button onclick="showCategory('frocks')">frocks</button>
+            <button onclick="showCategory('blouses')">blouses</button>
+            <button onclick="showCategory('sarees')">sarees</button>
+        </div>
+    </section>
+
+   <!-- Product Display Section -->
+<section id="products" class="products">
+
+    <div id="frocks" class="product-grid hidden">
+        <div class="product">
+            <img src="Images/Womens/frocks/1.avif" alt="Women's Frock 1">
+            <p>Elegant Floral Frock - LKR 4,500.00</p>
+            <button class="add-to-cart" onclick="goToCart()">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="Images/Womens/frocks/2.avif" alt="Women's Frock 2">
+            <p>Casual Summer Frock - LKR 3,800.00</p>
+            <button class="add-to-cart" onclick="goToCart()">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="Images/Womens/frocks/3.avif" alt="Women's Frock 3">
+            <p>Sleeveless Party Frock - LKR 5,200.00</p>
+            <button class="add-to-cart" onclick="goToCart()">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="Images/Womens/frocks/4.avif" alt="Women's Frock 4">
+            <p>Vintage Polka Dot Frock - LKR 4,200.00</p>
+            <button class="add-to-cart" onclick="goToCart()">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="Images/Womens/frocks/5.avif" alt="Women's Frock 5">
+            <p>Chic Evening Frock - LKR 6,000.00</p>
+            <button class="add-to-cart" onclick="goToCart()">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+    </div>
+
+    <div id="blouses" class="product-grid hidden">
+        <div class="product">
+            <img src="Images/Womens/blouses/1.avif" alt="Women's Blouse 1">
+            <p>Chiffon Ruffle Blouse - LKR 2,300.00</p>
+            <button class="add-to-cart" onclick="goToCart()">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="Images/Womens/blouses/2.avif" alt="Women's Blouse 2">
+            <p>Classic White Blouse - LKR 2,600.00</p>
+            <button class="add-to-cart" onclick="goToCart()">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="Images/Womens/blouses/3.avif" alt="Women's Blouse 3">
+            <p>Casual Denim Blouse - LKR 2,400.00</p>
+            <button class="add-to-cart" onclick="goToCart()">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="Images/Womens/blouses/4.avif" alt="Women's Blouse 4">
+            <p>Lace Embroidered Blouse - LKR 3,100.00</p>
+            <button class="add-to-cart" onclick="goToCart()">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="Images/Womens/blouses/5.avif" alt="Women's Blouse 5">
+            <p>Satin Pleated Blouse - LKR 3,500.00</p>
+            <button class="add-to-cart" onclick="goToCart()">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+    </div>
+
+    <div id="sarees" class="product-grid hidden">
+        <div class="product">
+            <img src="Images/Womens/sarees/1.avif" alt="Women's Saree 1">
+            <p>Silk Traditional Saree - LKR 7,500.00</p>
+            <button class="add-to-cart" onclick="goToCart()">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="Images/Womens/sarees/2.avif" alt="Women's Saree 2">
+            <p>Cotton Casual Saree - LKR 4,200.00</p>
+            <button class="add-to-cart" onclick="goToCart()">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="Images/Womens/sarees/3.avif" alt="Women's Saree 3">
+            <p>Handloom Saree - LKR 5,800.00</p>
+            <button class="add-to-cart" onclick="goToCart()">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="Images/Womens/sarees/4.avif" alt="Women's Saree 4">
+            <p>Georgette Embellished Saree - LKR 6,500.00</p>
+            <button class="add-to-cart" onclick="goToCart()">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="Images/Womens/sarees/5.avif" alt="Women's Saree 5">
+            <p>Designer Saree with Blouse - LKR 9,000.00</p>
+            <button class="add-to-cart" onclick="goToCart()">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+    </div>
+
+</section>
+
+
+    <!-- Footer Area -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>Opal Muse takes pride in delivering a world-class retail experience that seamlessly blends sophistication with timeless fashion...</p>
+                <img src="Images\quality.png" alt="quality">
+                <img src="Images\satisfaction.png" alt="satisfaction">
+            </div>
+            <div class="footer-section services">
+                <h3>The Services</h3>
+                <ul>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="return&exchange.html">Return & Exchange</a></li>
+                    <li><a href="size chart.html">Size Charts</a></li>
+                </ul>
+            </div>
+            <div class="footer-section hours">
+                <h3>Open Hours</h3>
+                <p>Monday - Friday: 8:00 AM - 8:00 PM</p>
+                <p>Saturday: 9:00 AM - 6:30 PM</p>
+                <p>Sunday: 9:00 AM - 3:00 PM</p>
+            </div>
+            <div class="footer-section newsletter">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter to get all our news in your inbox.</p>
+                <form action="http://localhost/OpalMuse/subscribe.php" method="POST">
+                    <input type="email" placeholder="Email Address" name="email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-section contact">
+                <h3>Get in Touch</h3>
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="https://www.whatsapp.com"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                    <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i> Twitter</a></li>
+                </ul>
+            </div>    
+        </div>
+        <div class="footer-bottom">
+            <p>© Copyright 2024 | All Rights Reserved by Opal Muse. Powered By MPH Developers</p>
+        </div>
+    </footer>
+
+    <script>
+        // Function to navigate to cart.html
+        function goToCart() {
+            window.location.href = "cart.html";
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opal muse</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-top">
+            <div class="logo-container">
+                <img src="Images\10.png" alt="Opal Muse" class="logo">
+            </div>
+            <h1 class="Ologo">OPAL MUSE</h1>
+            <div class="header-search">
+                <input type="text" placeholder="Search for items...">
+                <button><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+            
+            <div class="header-buttons">
+                <button onclick="window.location.href='cart.html'"><i class="fa-solid fa-cart-shopping"></i>Cart</button>
+                <button onclick="window.location.href='login.html'"><i class="fa-solid fa-user"></i>Login</button>
+                <button onclick="window.location.href='register.html'"><i class="fa-solid fa-user-plus"></i>Register</button>
+            </div>
+             
+        </div>
+
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="new_arrivals.html">New Arrivals</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="kids.html">Kids</a></li>
+                <li><a href="gift_cards.html">Gift Cards</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+<!-- Slider Area -->
+<section class="slider">
+    <div class="hero-slider">
+        <!-- Start Single Slider -->
+        <div class="single-slider" style="background-image:url('Images/c1.jpg')">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="slide-text">
+                            <h1>Discover the <span>Latest</span> Trends in <span>Fashion</span>!</h1>
+                            <p>Explore our new collection of stylish and affordable clothing for every occasion.</p>
+                            <div class="button">
+                                <a href="#" class="btn">Shop Now</a>
+                                <a href="#" class="btn primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Single Slider -->
+        <!-- Start Single Slider -->
+        <div class="single-slider" style="background-image:url('Images/c2.jpg')">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="slide-text">
+                            <h1><span>Summer</span> Collection Is Here!</h1>
+                            <p>Refresh your wardrobe with vibrant colors and chic designs perfect for the season.</p>
+                            <div class="button">
+                                <a href="#" class="btn">Explore Collection</a>
+                                <a href="#" class="btn primary">About Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Single Slider -->
+        <!-- Start Single Slider -->
+        <div class="single-slider" style="background-image:url('Images/c3.jpg')">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="slide-text">
+                            <h1>Up to <span>50% Off</span> on Selected Styles!</h1>
+                            <p>Don't miss out on our exclusive sale. Shop your favorite outfits today!</p>
+                            <div class="button">
+                                <a href="#" class="btn">Shop Sale</a>
+                                <a href="#" class="btn primary">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Single Slider -->
+    </div>
+    <!-- Radio Buttons -->
+    <div class="slider-navigation">
+        <!-- Radio buttons to sync with slider -->
+        <input type="radio" name="slider-radio" id="slide1" checked>
+        <label for="slide1"></label>
+        <input type="radio" name="slider-radio" id="slide2">
+        <label for="slide2"></label>
+        <input type="radio" name="slider-radio" id="slide3">
+        <label for="slide3"></label>
+    </div>
+</section>
+
+
+
+        
+
+    <!-- features Section -->
+    <section class="fet">
+        <div class="features">
+            <div class="feature">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <h3>Genuine Products</h3>
+                <p>Shop online with confidence.<br> Thousands of reviews.</p>
+            </div>
+            <div class="feature">
+                <i class="fa fa-comments" aria-hidden="true"></i>
+                <h3>14 Day Exchanges</h3>
+                <p>Size does not fit? Just let us know. <br>We'll do the needful.</p>
+            </div>
+            <div class="feature">
+                <i class="fa fa-refresh" aria-hidden="true"></i>
+                <h3>Hassle-Free Returns</h3>
+                <p>Buy now, worry-free, <br>with our easy return process.</p>
+            </div>
+            <div class="feature">
+                <i class="fa fa-credit-card" aria-hidden="true"></i>
+                <h3>Cash on Delivery</h3>
+                <p>Secure card payments at <br> checkoutor cash on delivery.</p>
+            </div>
+          </div>
+        
+    </section>
+
+     <!-- Review Section -->
+
+    <section id="reviews">
+        <h2 class="reviews-title">Our Customer Reviews</h2>  
+        <div class="review-slider">
+            <div class="review-container">
+                <div class="review-slide">
+                    <img src="Images\r1.jpg" alt="John Doe">
+                    <p>"Amazing service, highly recommend!"</p>
+                    <div class="stars">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <span>- John Doe</span>
+                </div>
+                <div class="review-slide">
+                    <img src="Images\r2.jpg" alt="Jane Smith">
+                    <p>"Fantastic products, will buy again."</p>
+                    <div class="stars">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9734;</span>
+                    </div>
+                    <span>- Jane Smith</span>
+                </div>
+                <div class="review-slide">
+                    <img src="Images\r3.jpg" alt="Sarah Lee">
+                    <p>"Customer support was top-notch."</p>
+                    <div class="stars">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <span>- Sarah Lee</span>
+                </div>
+            </div>
+            <div class="review-buttons">
+                <button id="review-prev">&#8249;</button>
+                <button id="review-next">&#8250;</button>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer Area -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section about">
+            <h3>About Us</h3>
+            <p>Opal Muse takes pride in delivering a world-class retail experience that seamlessly blends sophistication with timeless fashion...</p>
+            <img src="Images\quality.png" alt="quality">
+            <img src="Images\satisfaction.png" alt="satisfaction">
+        </div>
+       
+
+        <div class="footer-section services">
+            <h3>The Services</h3>
+            <ul>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="return&exchange.html">Return & Exchange</a></li>
+                <li><a href="size chart.html">Size Charts</a></li>
+            </ul>
+        </div>
+        <div class="footer-section hours">
+            <h3>Open Hours</h3>
+            <p>Monday - Friday: 8:00 AM - 8:00 PM</p>
+            <p>Saturday: 9:00 AM - 6:30 PM</p>
+            <p>Sunday: 9:00 AM - 3:00 PM</p>
+        </div>
+        <div class="footer-section newsletter">
+            <h3>Newsletter</h3>
+            <p>Subscribe to our newsletter to get all our news in your inbox.</p>
+            <form action="http://localhost/OpalMuse/subscribe.php" method="POST">
+                <input type="email" placeholder="Email Address" name="email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <div class="footer-section contact">
+            <h3>Get in Touch</h3>
+            <ul class="social-links">
+                <li>
+                    <a href="https://www.facebook.com">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.whatsapp.com">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com">
+                        <i class="fab fa-twitter"></i> Twitter
+                    </a>
+                </li>
+            </ul>
+        </div>    
+    </div>
+    <div class="footer-bottom">
+        <p>© Copyright 2024 | All Rights Reserved by Opal Muse.Powered By MPH Developers</p>
+    </div>
+</footer>
+
+
+		
+
+    <script src="scripts.js"></script>
+</body>
+</html>

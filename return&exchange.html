@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return & Exchange</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="return&exchange.css">
+</head>
+<body>
+<!-- Navigation Bar -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Go To Home</a></li>
+                
+            </ul>
+        </nav>
+    
+
+    <!-- Left Section -->
+    <div class="container">
+        <div class="policy-section">
+            <h1>RETURN & EXCHANGE POLICY</h1>
+            <p>We continuously strive to ensure that we provide all our customers with an amazing online shopping experience. If for any reason you are not satisfied with your purchase, you may request a refund or an exchange within 14 days from the date delivered. Please follow the instructions of our return & exchange policy below.</p>
+            
+            <h2>RETURN | EXCHANGE POLICY REQUIREMENTS</h2>
+            <ul>
+                <li>Items must be neatly packed and ready securely in the re-sealable package you received them in.</li>
+                <li>The invoice should also be included inside the package.</li>
+                <li>Items must not be worn, altered, damaged, or washed.</li>
+                <li>Items must have all tags attached.</li>
+            </ul>
+
+            <h2>RETURN | EXCHANGE PROCEDURE</h2>
+            <p>Please fill in and submit the <strong>Service Request Form</strong> on this page to initiate your request. We will contact you if further clarification is required.</p>
+            <p>In most cases, exchange requests will be dispatched within 2 working days depending on the stock availability. Returning items will be collected at the time of your new delivery. A collection & re-delivery charge of Rs.240/- may apply. Kindly note that this process will take 3-7 working days to be fulfilled.</p>
+            <p>Returning items for refund can either be collected via the same courier service at your request or you may use a reliable courier to send them back to us. Refunds will be processed after inspection of returned items. The total value of the order will be refunded except for delivery charges. Transfers can be made to any nominated bank by you. A notification with proof will be sent when the transfer is been made. This usually takes 2 working days upon receiving the returned package.</p>
+            <p>If any returns do not meet policy requirements, the items will be sent back to you immediately. We reserve the right to refuse a refund if the items have any signs of wear, alterations, misuse, or damage.</p>
+            <p>For more information, please contact us on <strong>011 7044979</strong> (Lines are open from 9.00 AM – 5.00 PM Monday to Friday, 9.00 AM – 1.00 PM on Saturday) or email <strong>OpalMuse.lk</strong></p>
+            <p>We are pleased to serve you.</p>
+        </div>
+
+        <!-- Right Section -->
+        <div class="form-section">
+            <h2>Service Request Form</h2>
+            <form  method="POST" action="http://localhost/OpalMuse/return&exchange.php">
+                <label for="name">Your Name :</label>
+                <input type="text" id="name" name="name">
+
+                <label for="contact">Contact Number :</label>
+                <input type="text" id="contact" name="contact" required>
+
+                <label for="email">Your Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="order">Order Number :</label>
+                <input type="text" id="order" name="order" required>
+
+                <label for="service">Required Service :</label>
+                <select id="service" name="service" required>
+                    <option value="">--</option>
+                    <option value="exchange">Exchange</option>
+                    <option value="refund">Refund</option>
+                </select>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Area -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section about">
+            <h3>About Us</h3>
+            <p>Opal Muse takes pride in delivering a world-class retail experience that seamlessly blends sophistication with timeless fashion...</p>
+            <img src="Images\quality.png" alt="quality">
+            <img src="Images\satisfaction.png" alt="satisfaction">
+        </div>
+       
+
+        <div class="footer-section services">
+            <h3>The Services</h3>
+            <ul>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="return&exchange.html">Return & Exchange</a></li>
+                <li><a href="size chart.html">Size Charts</a></li>
+            </ul>
+        </div>
+        <div class="footer-section hours">
+            <h3>Open Hours</h3>
+            <p>Monday - Friday: 8:00 AM - 8:00 PM</p>
+            <p>Saturday: 9:00 AM - 6:30 PM</p>
+            <p>Sunday: 9:00 AM - 3:00 PM</p>
+        </div>
+        <div class="footer-section newsletter">
+            <h3>Newsletter</h3>
+            <p>Subscribe to our newsletter to get all our news in your inbox.</p>
+            <form action="http://localhost/OpalMuse/subscribe.php" method="POST">
+                <input type="email" placeholder="Email Address" name="email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <div class="footer-section contact">
+            <h3>Get in Touch</h3>
+            <ul class="social-links">
+                <li>
+                    <a href="https://www.facebook.com">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.whatsapp.com">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com">
+                        <i class="fab fa-twitter"></i> Twitter
+                    </a>
+                </li>
+            </ul>
+        </div>    
+    </div>
+    <div class="footer-bottom">
+        <p>© Copyright 2024 | All Rights Reserved by Opal Muse.Powered By MPH Developers</p>
+    </div>
+</footer>
+
+
+</body>
+</html>

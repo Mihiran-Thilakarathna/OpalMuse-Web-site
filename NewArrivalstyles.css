@@ -1,0 +1,42 @@
+.featured-section {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin: 20px 0;
+}
+
+.featured-section h2 {
+    font-size: 2rem; 
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.featured-section p {
+    font-size: 1rem; 
+    color: #555;
+    margin-top: 0;
+}
+
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.product {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 220px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
