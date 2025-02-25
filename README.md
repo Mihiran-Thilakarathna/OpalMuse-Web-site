@@ -83,5 +83,5 @@ OpalMuse-Web-site/
 │   ├── support.html
 │   ├── women.html
 │
-├── Update README.md               # Documentation
+├── README.md               # Documentation
 ```
