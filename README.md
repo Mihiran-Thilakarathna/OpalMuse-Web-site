@@ -22,7 +22,7 @@ This is a fully functional clothing shop website developed using **HTML, CSS, Ja
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/clothing-shop.git
+   git clone https://github.com/Mihiran-Thilakarathna/OpalMuse-Web-site.git
    ```
 2. Move to the project directory:
    ```bash
